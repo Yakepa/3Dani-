@@ -230,7 +230,7 @@ async def start_web_server():
 
 # ============ Главная функция ============
 async def main():
-    application = Application.builder().token("7800320688:AAFyXgmRLUtiwZ_xg7X6LF0FYTD316N6QoE").build()
+    application = Application.builder().token("xxx").build()
 
     # Регистрация обработчиков команд и сообщений
     application.add_handler(CommandHandler("start", start))
